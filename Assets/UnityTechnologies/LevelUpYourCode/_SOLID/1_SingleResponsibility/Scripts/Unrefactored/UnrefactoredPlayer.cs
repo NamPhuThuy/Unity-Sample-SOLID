@@ -6,9 +6,8 @@ using UnityEngine.UIElements;
 namespace DesignPatterns.SRP
 {
     /// <summary>
-    /// Demonstrates a non-Single Responsibility Principle (SRP) approach to player functionality in Unity.
-    /// 
-    /// This script merges multiple responsibilities like movement control, input handling,
+    /// Demonstrates a non-Single Responsibility Principle (SRP) approach to player functionality
+    /// Merges multiple responsibilities like movement control, input handling,
     /// audio management, and particle effects into a single class. 
     /// 
     /// While currently manageable due to its small size, this approach may lead to difficulties in scaling,
@@ -70,6 +69,9 @@ namespace DesignPatterns.SRP
             Move(inputVector);
         }
 
+        /// <summary>
+        /// Input handling
+        /// </summary>
         private void HandleInput()
         {
             // Reset input vector
@@ -88,6 +90,10 @@ namespace DesignPatterns.SRP
             inputVector = new Vector3(xInput, 0, zInput);
         }
 
+        /// <summary>
+        /// Movement
+        /// </summary>
+        /// <param name="inputVector"></param>
         private void Move(Vector3 inputVector)
         {
             if (inputVector == Vector3.zero)
@@ -108,6 +114,9 @@ namespace DesignPatterns.SRP
             transform.position = new Vector3(transform.position.x, initialYPosition, transform.position.z);
         }
 
+        /// <summary>
+        /// Audio management
+        /// </summary>
         public void PlayRandomAudioClip()
         {
             // If the time to play the next clip has passed and there are clips available we play a random clip.
@@ -119,6 +128,9 @@ namespace DesignPatterns.SRP
             }
         }
 
+        /// <summary>
+        /// Effect control
+        /// </summary>
         public void PlayEffect()
         {
             if (Time.time < timeToNextEffect)
@@ -132,6 +144,10 @@ namespace DesignPatterns.SRP
             }
         }
 
+        /// <summary>
+        /// Collision control
+        /// </summary>
+        /// <param name="hit"></param>
         private void OnControllerColliderHit(ControllerColliderHit hit)
         {
             // Check if the collided object's layer is in the obstacleLayer LayerMask.

@@ -10,18 +10,18 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/NamPhuThuy/Unity-Initial">
+  <a href="https://github.com/NamPhuThuy">
     <img src="images/avatar.png" alt="Logo" width="200">
   </a>
 
 <h3 align="center">README-Template</h3>
 
   <p align="center">
-    <a href="https://github.com/NamPhuThuy/Unity-Initial">View Demo</a>
+    <a href="https://github.com/NamPhuThuy/Unity-Sample-SOLID">View Demo</a>
     ·
-    <a href="https://github.com/NamPhuThuy/Unity-Initial/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/NamPhuThuy/Unity-Sample-SOLID/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/NamPhuThuy/Unity-Initial/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/NamPhuThuy/Unity-Sample-SOLID/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -31,19 +31,10 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
     </li>
-    <li><a href="#usage-examples">Usage examples</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -56,63 +47,20 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This is the short description about the project. Technologies, tools be used 
- :smile:
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-Major frameworks/libraries used in project
-* [![Unity][Unity.com]][Unity-url]
-* [![CSharp][CSharp.com]][CSharp-url]
+This project is used for learning SOLID, based on the <a href = "https://assetstore.unity.com/packages/essentials/tutorial-projects/level-up-your-code-with-design-patterns-and-solid-289616">sample project of Unity</a> 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
+- Clone the project, and open with **Unity 6000.0.11 or higher**
+```
+git clone https://github.com/NamPhuThuy/Unity-Sample-SOLID.git
+```
 
-Instructions to setup this project locally.
-
-### Prerequisites
-
-### Installation
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage examples
-
-Some useful examples of how this project can be used (add screenshots, code examples, demo works, resource links..)
+- Run the project and start reading...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/NamPhuThuy/Unity-Initial/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Top contributors:
-
-<a href="https://github.com/NamPhuThuy/TN006-Unity-Auto-Cat/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=NamPhuThuy/TN006-Unity-Auto-Cat" alt="contrib.rocks image" />
-</a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- CONTACT -->
 ## Contact
@@ -128,7 +76,9 @@ See the [open issues](https://github.com/NamPhuThuy/Unity-Initial/issues) for a 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 Helpful resources, credits
-* [GitHub Pages](https://github.com/NamPhuThuy)
+* [Project on Asset Store](https://assetstore.unity.com/packages/essentials/tutorial-projects/level-up-your-code-with-design-patterns-and-solid-289616)
+* Ebook: [Level up your code with design patterns and SOLID](https://unity.com/resources/design-patterns-solid-ebook)
+* Ebook: Clean Architecture: A Craftman's Guide to Software Structure and Design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
